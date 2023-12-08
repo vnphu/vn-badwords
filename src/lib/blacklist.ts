@@ -103,7 +103,7 @@ export function badWords(
   const config = createConfig(options);
 
   // "i" when matching, casing differences are ignored.
-  const regexp = new RegExp(`\\b(config.blackList.join("|"))\\b`, "gi");
+  const regexp = new RegExp(`(\\s|^)(\\b${config.blackList.join("\\b|\\b")}\\b)(\\s|$)`, "gi");
 
   input = input.normalize();
 
