@@ -1,5 +1,5 @@
 {
-  "name": "vnphu/vn-badwords",
+  "name": "@vnphu/vn-badwords",
   "version": "1.0.0",
   "description": "This package is for developers to be able to easily integrate bad word checking into their projects.\r This package can return bad words in array or regular expression (regex) form.",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "vn-badwords"
   ],
   "author": "Quang Sáng",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "run-test": "tsx src/test.ts",
     "build": "tsup",
